@@ -1,0 +1,67 @@
+RESULTADOS DE LA SIMULACIÓN DE PARQUEADEROS
+Centro Comercial Supercentro
+Autor: Alejandro Arango Calderón
+=======================================================
+
+Estado estable en réplica 19, réplicas usadas: 25
+
+ESTADÍSTICAS POR CAJERO
+----------------------------------------
+
+Cajero 1:
+  Clientes     : 104
+  Espera prom  : 14.30 min
+  Servicio prom: 3.73 min
+  En sistema   : 18.02 min
+  Utilización  : 76.7 %
+
+Cajero 2:
+  Clientes     : 105
+  Espera prom  : 14.20 min
+  Servicio prom: 3.60 min
+  En sistema   : 17.80 min
+  Utilización  : 75.7 %
+
+Cajero 3:
+  Clientes     : 99
+  Espera prom  : 10.75 min
+  Servicio prom: 3.66 min
+  En sistema   : 14.40 min
+  Utilización  : 74.0 %
+
+Menor servicio: Cajero 2 (3.60 min)
+Mayor servicio: Cajero 1 (3.73 min)
+
+
+USUARIOS POR TIPO
+----------------------------------------
+  Rápido      : 76.4
+  Normal      : 61.4
+  Lento       : 84.6
+  Muy Lento   : 84.8
+
+
+ESCENARIOS
+----------------------------------------
+
+3 cajeros: espera=11.11 min, sistema=14.70 min, util=74.6%
+
+4 cajeros: espera=12.61 min, sistema=16.20 min, util=74.9%
+
+5 cajeros: espera=12.50 min, sistema=16.06 min, util=74.9%
+
+6 cajeros: espera=12.90 min, sistema=16.47 min, util=75.1%
+
+
+VERIFICACIÓN
+----------------------------------------
+  ρ  teórico=0.7742  simulado=0.7455
+  Wq teórico=12.34  simulado=12.13
+  W  teórico=15.94   simulado=15.77
+
+
+ESTADO TRANSITORIO
+----------------------------------------
+  Truncamiento: obs 17
+  Media antes : 7.99 min
+  Media después: 7.47 min
