@@ -61,4 +61,4 @@ Se generan automáticamente las 8 gráficas en `figuras/` y los resultados en `r
 
 ## Autor
 
-Alejandro Arango Calderón - 5to Semestre
+Alejandro Arango Calderón
